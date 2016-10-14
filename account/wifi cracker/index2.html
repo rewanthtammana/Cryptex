@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User Area</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+            
+        <style>
+            html,
+            body {
+             height: 100%;
+             background-color: #333;
+                background-image: url(1018.jpg);
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+            .center1
+            {
+                margin-top: 200;
+                margin-left: 200;
+            }
+        </style>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">  
+    </head>
+<body>
+        <center>
+        	<div class="center1">
+        		<font color="white">
+        			<h1>
+        				<i>WIFI - CRACKER </i>
+        			</h1>
+					<h3>Upload your packet captured file here to crack it</h3>
+				</font>
+				<form action="fileuploader2.php" method="post" enctype="multipart/form-data">
+				    <font color="white">
+				        <h4>Select  the cap/pcap to upload:</h4>
+				    </font>
+				    <br><br>
+				    <font color="white">
+				    	<input type="file" name="fileToUpload" id="fileToUpload">
+				    	<br>
+				    </font>
+				    <input type="submit" value="Upload Cap File" name="submit">
+				</form>
+			</div>
+		</center>
+</body>
+</html>

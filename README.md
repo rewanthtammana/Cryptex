@@ -5,3 +5,7 @@ Advantages over other websites :
 * Identifies 250+ hashes
 * Decrypts md5,sha1,sha512,lm and ntlm hashes
 * Wi-Fi password cracking available
+
+Requirements :
+* Install PHP and MySQL.
+* Open LOGIN.php to see the home page.
